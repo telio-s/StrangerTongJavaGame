@@ -5,5 +5,5 @@
 Name : Stranger Tong
 Description: JavaFx Game
 
-Demo:
-![alt text](https://github.com/telio-s/StrangerTongJavaGame/main/Demo.gif?raw=true)
+
+<img src="https://github.com/telio-s/StrangerTongJavaGame/blob/main/src/images/Demo.gif" width="600" />
