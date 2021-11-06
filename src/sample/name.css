@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Gamegirl Classic';
+    src: url("GamegirlClassic.ttf");
+}
+
+#m1Label {
+    -fx-font-family: "Gamegirl Classic";
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+
+}
+#m2Label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+    -fx-font-family: "Gamegirl Classic";
+}
+
+#roundText {
+     -fx-font-size: 22px;
+     -fx-font-weight: bold;
+     -fx-text-fill: red;
+     -fx-font-family: "Gamegirl Classic";
+}
+#turnText {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+    -fx-font-family: "Gamegirl Classic";
+}
+#Round {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+    -fx-font-family: "Gamegirl Classic";
+}
+
+#Turn {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+    -fx-font-family: "Gamegirl Classic";
+}
+#winning {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-family: "Gamegirl Classic";}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.BattleController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true" scaleZ="0.0">
+         <image>
+            <Image url="@../images/tong2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firem1" fitHeight="130.0" fitWidth="180.0" layoutX="207.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="firem2" fitHeight="150.0" fitWidth="200.0" layoutX="408.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="m1Image" fitHeight="100.0" fitWidth="120.0" layoutX="237.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="m2Image" fitHeight="172.0" fitWidth="195.0" layoutX="408.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="winwin" fitHeight="100.0" fitWidth="500.0" layoutX="147.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="ATK" layoutX="326.0" layoutY="201.0" mnemonicParsing="false" onAction="#handleAtkBtnOnAction" prefHeight="25.0" prefWidth="71.0" stylesheets="@ButtonAtt.css" />
+      <Button fx:id="Heal" layoutX="404.0" layoutY="201.0" mnemonicParsing="false" onAction="#handleHealBtnOnAction" prefHeight="25.0" prefWidth="71.0" stylesheets="@ButtonHeal.css" />
+      <Label fx:id="m1Label" layoutX="30.0" layoutY="50.0" stylesheets="@name.css" text="Label" textFill="WHITE" />
+      <Label fx:id="m2Label" layoutX="648.0" layoutY="41.0" stylesheets="@name.css" text="Label" textFill="WHITE" />
+      <TextField fx:id="HealInput" layoutX="326.0" layoutY="170.0" />
+      <Label fx:id="winning" layoutX="512.0" layoutY="193.0" prefHeight="82.0" prefWidth="120.0" stylesheets="@name.css" textFill="WHITE" translateX="-10.0" translateY="-20.0" />
+      <ProgressBar fx:id="blood1" layoutX="30.0" layoutY="107.0" prefHeight="20.0" prefWidth="150.0" progress="0.0" stylesheets="@bloodTrack.css" />
+      <ProgressBar fx:id="blood2" layoutX="612.0" layoutY="97.0" prefHeight="20.0" prefWidth="150.0" progress="0.0" stylesheets="@bloodTrack.css" />
+      <ImageView fitHeight="17.0" fitWidth="117.0" layoutX="25.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Power.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="17.0" fitWidth="85.0" layoutX="687.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Power.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="roundText" layoutX="457.0" layoutY="98.0" prefHeight="40.0" prefWidth="53.0" stylesheets="@name.css" />
+      <Label fx:id="turnText" layoutX="414.0" layoutY="142.0" prefHeight="28.0" prefWidth="40.0" stylesheets="@name.css" translateX="20.0" />
+      <Label fx:id="Round" layoutX="316.0" layoutY="97.0" prefHeight="40.0" prefWidth="150.0" stylesheets="@name.css" text="Round:" />
+      <Label fx:id="Turn" layoutX="327.0" layoutY="141.0" prefHeight="23.0" prefWidth="120.0" stylesheets="@name.css" text="Turn:" />
+      <ImageView fitHeight="82.0" fitWidth="195.0" layoutX="294.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/gamename.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
