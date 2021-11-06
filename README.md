@@ -6,4 +6,4 @@ Name : Stranger Tong
 Description: JavaFx Game
 
 Demo:
-![alt text](https://github.com/telio-s/StrangerTongJavaGame/blob/main/Demo.gif?raw=true)
+![alt text](https://github.com/telio-s/StrangerTongJavaGame/main/Demo.gif?raw=true)
